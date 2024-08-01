@@ -7,6 +7,9 @@ import FeatImage04 from '@/public/images/databaseMengment.jpg'
 import FeatImage05 from '@/public/images/qlik.jpg'
 import FeatImage05a from '@/public/images/qlik1.jpg'
 import FeatImage05b from '@/public/images/qlik2.jpg'
+import FeatImage_skeysar from '@/public/images/s.keysarCars.jpg'
+import FeatImage_skeysarAdmin2 from '@/public/images/s.keysar.admin2.jpg'
+import FeatImage_skeysarAdmin1 from '@/public/images/s.keysar.admin.jpg'
 export default function Zigzag() {
   return (
     <section>
@@ -68,7 +71,52 @@ export default function Zigzag() {
               </div>
             </div>
 
-            {/* 2nd item */}
+
+
+{/*  item 2*/}
+<div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+  {/* Image */}
+  <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              <a href="https://s-keysar-cars-show.vercel.app">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage_skeysar} width={540} height={202} alt="carShow project"  />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage_skeysarAdmin2} width={540} height={202} alt="carShow2 project"  />
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
+                </a>
+              </div>
+  {/* Content */}
+  <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+    <div className="md:pr-4 lg:pr-12 xl:pr-16">
+      <div className="font-architects-daughter text-xl text-purple-600 mb-2">Project For A Real Company </div>
+      <h3 className="h3 mb-3">S.Keysar Cars Dealership</h3>
+      <p className="text-xl text-gray-400 mb-4">A system created to show costumers all vehicels in the company.</p>
+      <ul className="text-lg text-gray-400 -mb-2">
+        <li className="flex items-center mb-2">
+          <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+          </svg>
+          <span>Admin Panel for add, delete or edit vehicles from anywhere.</span>
+        </li>
+        <li className="flex items-center mb-2">
+          <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+          </svg>
+          <span>Filters and Sort to Find the right vehicle for you  </span>
+        </li>
+       
+        <li className="flex items-center">
+          <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+          </svg>
+          <span>Implemented by React.js && FirebaseDB && MongoDB</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+            {/* 3nd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
@@ -108,7 +156,7 @@ export default function Zigzag() {
               </div>
             </div>
 
-             {   /* 3nd item */}
+             {   /* 4nd item */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
@@ -154,7 +202,7 @@ export default function Zigzag() {
             </div>
 
 
-            {   /* 4nd item */}
+            {   /*5nd item */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
@@ -199,7 +247,7 @@ export default function Zigzag() {
               </div>
             </div>
 
-            {   /* 5nd item */}
+            {   /* 6nd item */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">

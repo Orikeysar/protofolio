@@ -9,7 +9,7 @@ export default function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Nice to meet you!</h2>
             <p className="text-xl text-gray-400">Thank you for visiting my portfolio website.<br/> 
-            I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/><br/>
+            I'm {full_Name}, a graduate of B.Sc. Industrial Engineering & Management with Information System Expertise.<br/><br/>
             With a strong passion for web development and industrial engineering, I strive for excellence in every project I undertake.<br/><br/> 
             Through my analytical skills, fast learning abilities, and dedication, I aim to make a positive impact in the field.<br/>
              Feel free to explore my projects and skills, and don't hesitate to reach out to discuss potential collaborations or opportunities.<br/> <br/>
@@ -27,7 +27,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-4  text-center">	Softwares</h4>
-              <p className="text-lg text-gray-400 text-center">MSQL, Spss, Ms Project, Knime, Qlik, Tableau, Arena, Word, PowerPoint, Excel</p>
+              <p className="text-lg text-gray-400 text-center">MSQL, Spss, Ms Project, Knime, Qlik, Tableau, Arena, Word, PowerPoint, Excel,WMS,Sap</p>
             </div>
 
             {/* 2nd item */}
@@ -38,7 +38,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-4 text-center">programming languages/technologies </h4>
-              <p className="text-lg text-gray-400 text-center">C++, C#, .NET, ASP.NET, HTML5, CSS, JavaScript, TypeScript, jQuery, Angular, TailWind.css, React.js, Advence SQL , FirebaseDB,No-Sql Database</p>
+              <p className="text-lg text-gray-400 text-center">C++, C#, .NET, ASP.NET, React.js, JavaScript, HTML5, CSS, TypeScript, jQuery, Angular, TailWind.css,  Advence SQL , FirebaseDB,No-Sql Database</p>
             </div>
 
             {/* 3rd item */}
@@ -52,7 +52,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-4  text-center">information systems analysis and characterization</h4>
-              <p className="text-lg text-gray-400 text-center">ERD, BPMN, USE CASE, CLASS MODEL, SEQUENCE MODEL, State 
+              <p className="text-lg text-gray-400 text-center">WMS, ERD, BPMN, USE CASE, CLASS MODEL, SEQUENCE MODEL, State 
               Chart Modal</p>
             </div>
 {/* 
